@@ -1,3 +1,28 @@
+#div5 {background-color: gold; width: 100px; height: 100px;}
+img {width: 100px; height: 100px; display: none;}
+/*
+#div5:hover > img {display: block;}
+#div5:hover > div {display: none;}
+*/
+
+/* &:한번에 처리 시
+#div5:hover{
+    & > img {display: block;}
+    &  > div {display: none;}
+}*/
+
+#div5 {
+    background-color: aqua;
+    &:hover{
+        > img {display: block;}
+    > div {display: none;}}
+}
+
+#div2 {background-color: gold; height: 100px; width: 100px;}
+#div3 {background-color: goldenrod; height: 100px; width: 100px;}
+#div4 {background-color: greenyellow;}
+
+
 #div1 {background-color: red; display: inline; text-align: center; width: 100px; height: 100px;}
 #h1 {background-color: gold; display: block; width: 100px; height: 100px}
 /*

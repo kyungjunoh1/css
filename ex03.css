@@ -13,7 +13,7 @@
 #div4 + div {background-color: blue;} /*해당값에 인접하는거에만 적용*/
 
 #div3 {width: 200px; height: 200px; background-color: green;}
-#div3 > div > h3 {color: aqua;}
+#div3 > div > div > h3 {color: aqua;}
 
 #div2 {width: 200px; height: 200px; background-color: gray;}
 #div2 > h3 {color: red;}

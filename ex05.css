@@ -1,0 +1,10 @@
+#div1 {background-color: red; display: inline; text-align: center; width: 100px; height: 100px;}
+#h1 {background-color: gold; display: block; width: 100px; height: 100px}
+/*
+ inline : 사이즈 조정 안되고 가로 배치
+ block : 사이즈 조정 가능, 엔터 적용
+ inline-block : 사이즈 조정 가능, 가로 배치
+ none : 숨김
+ */
+#span {background-color: green; display: inline-block; text-align: center; width: 100px; height: 100px}
+#a {background-color: gray; display: none; width: 100px; height: 100px}

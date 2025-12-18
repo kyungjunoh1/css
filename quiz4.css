@@ -1,3 +1,26 @@
+#wrap2 {background-color: antiquewhite; width: 400px; margin: auto;}
+#header {background-color: aqua;}
+#main {background-color: blueviolet; height: 150px; display: flex;}
+#footer {background-color: sandybrown;}
+#list {background-color: darkcyan; width: 20%;}
+#section {background-color: firebrick; width: 60%;}
+#section > div {width: 70%; margin: auto; text-align: center;
+& div {border: 2px solid; margin-top: 15px; background-color: yellow;} } 
+#side {background-color: antiquewhite; width: 20%;}
+
+
+
+#div1 {background-color: antiquewhite; width: 400px; margin: auto;}
+#div1 > :nth-of-type(1) {background-color: aquamarine;}
+#div1 > :nth-of-type(2) {background-color: yellowgreen; height: 150px;
+display: flex;
+& > :nth-of-type(1){width: 15%;}
+& > :nth-of-type(2) {width: 60%; background-color: red;}
+& > :nth-of-type(3) {width: 25%; background-color: blueviolet;}}
+#div1 > :nth-of-type(3) {background-color: thistle;}
+
+
+
 #wrap {background-color: aquamarine; width: 400px; margin: auto;}
 
 #wrap > :nth-of-type(1) {background-color: brown;}

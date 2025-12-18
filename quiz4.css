@@ -5,7 +5,7 @@
 #list {background-color: darkcyan; width: 20%;}
 #section {background-color: firebrick; width: 60%;}
 #section > div {width: 70%; margin: auto; text-align: center;
-& div {border: 2px solid; margin-top: 15px; background-color: yellow;} } 
+& div {height: 20px;  border: 2px solid; margin-top: 15px; background-color: yellow;} } 
 #side {background-color: antiquewhite; width: 20%;}
 
 

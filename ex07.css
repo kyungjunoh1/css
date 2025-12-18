@@ -2,8 +2,6 @@
    (300 -2 * 20px) / 3 = box width size(86.666) */
 
 
-
-
 #div4 {border: 2px solid; width: 300px; height: 200px;}
 #div4 div {display: inline-block; width: 86.666px; height: 100px; background-color: red;
 margin-right: 20px;}

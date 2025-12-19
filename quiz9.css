@@ -1,0 +1,21 @@
+/*
+*{margin: 0; padding: 0;}
+#div1 {width: 150px; height: 150px;}
+img {width: 150px; height: 150px; border-radius: 50%; transition: 2s; margin-left: 100px;}
+#div1:hover img {transform: rotate(360deg) scale(1.5)}
+#div1:hover + #div2 {transform: translateY(150px);color: black; transition: 0.5s;}
+
+#div2 {width: 150px; font-size: 30px; color: aqua; margin-top: -100px; margin-left: 130px;
+transition: 3s;}
+*/
+
+
+#div1 {width: 100px; height: 100px;}
+
+img {width: 100px; height: 100px; transition: 2s; border-radius: 100px;}
+
+#div1:hover img {transform: scale(2) rotate(360deg);}
+#div1:hover ~ #div2 {margin-top: 60px; color: black; transition: 2s;}
+
+#div2 {width: 100px; text-align: center; margin-top: -60px; color: white; transition: 3s;
+font-size: 20px;}

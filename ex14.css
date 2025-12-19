@@ -34,4 +34,4 @@ transition: 3s;}
 
 #div8 {width: 150px; height: 150px;
 background-color: gold; transition: 3s;
-&:hover {transform: translateX(400px) rotate(360deg);}}
+&:hover {transform: translateY(400px) rotate(360deg);}}

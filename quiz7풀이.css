@@ -1,0 +1,23 @@
+ul { margin: 0; padding: 0;}
+li { list-style: none; width: 100px; text-align: center; 
+     height: 40px; line-height: 40px;
+}
+#nav {
+    width: 400px; background-color: cadetblue;
+}
+#menu { display: flex;}
+.menu1 {
+    /*
+    height: 120px;
+    display: none;
+    border: 1px solid;
+    */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#menu li:hover .menu1 { 
+    /* display: block; */
+    height: 120px;
+    border: 1px solid;
+}

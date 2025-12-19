@@ -1,0 +1,33 @@
+#div {width: 400px; background-color: yellow;}
+
+#list {display: flex;}
+.list1 {background-color: aquamarine; height: 120px; display: none; transition: 0.5s;
+border: 1px solid; border-radius: 15px;}
+#list li:hover .list1 {display: block;}
+
+.list2 {background-color: aquamarine; height: 0; overflow: hidden; transition: 0.5s;}
+#list li:hover .list2 {height: 120px;}
+
+
+li {width: 200px; list-style: none; height: 40px; line-height: 40px; text-align: center;}
+
+ul {margin: 0; padding: 0;}
+
+
+/*---------------------------------------------------------------------------------------*/
+#nav {width: 400px; background-color: aquamarine;}
+
+#menu {background-color: blue;}
+
+.menu1 {background-color: yellowgreen; height: 0; overflow: hidden; transition: 0.5s;}
+
+#menu li:hover .menu1 {height: 120px;}
+
+li {width: 100px; list-style: none; text-align: center; height: 40px; line-height: 40px;}
+
+ul {margin: 0; padding: 0;}
+
+/*------------------------------------------------------------*/
+#div1 {width: 100px; height: 100px; background-color: gold;
+transition: 1s; transition-delay: 1s;}
+#div1:hover {width: 300px; background-color: red;}

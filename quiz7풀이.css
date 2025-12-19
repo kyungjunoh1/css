@@ -3,21 +3,31 @@ li { list-style: none; width: 100px; text-align: center;
      height: 40px; line-height: 40px;
 }
 #nav {
-    width: 400px; background-color: cadetblue;
+    width: 200px; background-color: cadetblue; border: 1px solid black;
 }
-#menu { display: flex;}
+#menu { }
 .menu1 {
     /*
     height: 120px;
     display: none;
     border: 1px solid;
     */
-    height: 0;
+    /*quiz8*/
+    height: 0px;
     overflow: hidden;
     border-radius: 15px;
+    margin-left: 100px; /*왼쪽에서부터 40만큼*/
+    margin-top: -40px; /*밑에서부터 40만큼 올림*/
+    width: 100px; /*기존 li에서 넓이가 100이므로 100만큼 가야 맞음*/
 }
+
+/*1번 문제,quiz8*/
 #menu li:hover .menu1 { 
     /* display: block; */
     height: 120px;
-    border: 1px solid;
-}
+    border: 1px solid; background-color: aqua; }
+/*2번 문제
+#menu:hover .menu1 { 
+    display: block; 
+    height: 120px;
+    border: 1px solid;}*/

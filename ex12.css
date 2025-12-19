@@ -6,7 +6,7 @@ a {position: absolute; z-index: 10; &:hover ~#login{display: block;}}
 
 #static2 {background-color: rosybrown; z-index: 1;} /*z-index 1~:우선순위 결정"*/
 
-#relative2 {background-color: rebeccapurple; position: relative; top: -75px; left: 25px; z-index: 2;}
+#relative2 {background-color: rebeccapurple; position: relative; top: 50px; left: 25px; z-index: 2;}
 
 #absolute2 {background-color: firebrick; position: absolute; top: 50px; left: 50px; z-index: 1;}
 
